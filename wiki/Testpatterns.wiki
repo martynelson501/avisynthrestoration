@@ -21,4 +21,4 @@ The above video shows the testpattern after recording to a VHS VCR.  The contras
 
 http://avisynthrestoration.googlecode.com/files/testpatterns-real2.png
 
-The above video shows the testpattern after recording to a VHS VCR.  The contrast at this frequency is very poor.  The 135 sinewaves represent a real video frequency of 2.53MHz.
+The above video shows the testpattern after recording to a VHS VCR.  The contrast at this frequency is very poor.  The 135 sinewaves represent a real video frequency of 2.53MHz.  This video can theoretically be restored by application of a Fourier Transform to restore the frequency response.
