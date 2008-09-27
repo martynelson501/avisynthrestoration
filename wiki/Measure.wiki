@@ -13,7 +13,9 @@ This can then be used to calibrate capture brightness/contrast.
 
 It requires [http://www.avisynth.org avisynth] to run.  Once Avisynth is installed, open the included .avs file in Mediaplayer.  A default testpattern should be displayed.  To use on your own videos, modify the .avs as a text file and follow the included instructions to use your own video.
 http://avisynthrestoration.googlecode.com/files/measure-test.png
+
 Above is a measurement of the perfect testpattern which was recorded.
 
 http://avisynthrestoration.googlecode.com/files/measure-real.png
+
 Above is a measurement of the testpattern after being recorded on a VHS VCR.  Notice the noise and brightness/contrast differences.
