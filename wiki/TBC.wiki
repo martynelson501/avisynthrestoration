@@ -1,0 +1,12 @@
+#summary Description and installation of TBC.
+#labels Phase-Deploy
+
+= Introduction =
+
+TBC is an Avisynth Script which stabilizes timing jitter in video from analog VCRs, similiar in function to a TimeBaseCorrector.
+
+
+= Details =
+
+After processing your analog video through this filter, it is stabilized in the horizontal direction.  A reality of a normally working mechanical device is the imprecisness of it's timing.  Due to the varying speeds of the video head in a VCR, variations in timing are created.  This results in the symptom of video lines jumping left and right.  This script detects the end of each line, and places it in a known spot, thus preventing the jumping.
+It is important to stabilize video so that further processing can perform optimally.  For example, scripts which rely on motion vectors will be confused by the constant jumping.
