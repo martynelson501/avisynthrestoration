@@ -1,0 +1,14 @@
+#summary One-sentence summary of this page.
+#labels Phase-Deploy
+
+= Introduction =
+
+Measure is an Avisynth Script which generates greybars, and can measure such a testpattern by displaying luminence values on top of each bar.  The resulting video can be used for testing the video response of analog systems.
+
+
+= Details =
+
+The resulting video can be used for testing the video response of analog systems.
+This can then be used to calibrate capture brightness/contrast.
+
+It requires [http://www.avisynth.org avisynth] to run.  Once Avisynth is installed, open the included .avs file in Mediaplayer.  A default testpattern should be displayed.  To use on your own videos, modify the .avs as a text file and follow the included instructions to use your own video.
