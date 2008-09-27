@@ -12,3 +12,5 @@ After processing your analog video through this filter, it is stabilized in the 
 It is important to stabilize video so that further processing can perform optimally.  For example, scripts which rely on motion vectors will be confused by the constant jumping.
 
 It requires [http://www.avisynth.org avisynth] to run.  Once Avisynth is installed, open the included .avs file in Mediaplayer.  A default testpattern should be displayed.  To use on your own videos, modify the .avs as a text file and follow the included instructions to use your own video.
+
+http://avisynthrestoration.googlecode.com/files/tbc-test.png
