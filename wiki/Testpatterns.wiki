@@ -1,0 +1,12 @@
+#summary One-sentence summary of this page.
+#labels Phase-Deploy
+
+= Introduction =
+
+Testpatterns is an Avisynth Script which generates sinewaves in the Y channel directly in YV12.
+
+
+= Details =
+
+The resulting video can be used for testing the video response of analog systems.
+The included functions are also useful to plotting other functions, and demonstrate the implementation of recursive functions.
