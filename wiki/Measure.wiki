@@ -18,4 +18,4 @@ Above is a measurement of the perfect testpattern which was recorded.
 
 http://avisynthrestoration.googlecode.com/files/measure-real.png
 
-Above is a measurement of the testpattern after being recorded on a VHS VCR.  Notice the noise and brightness/contrast differences.
+Above is a measurement of the testpattern after being recorded on a VHS VCR.  Notice the noise and brightness/contrast differences; contrast is too high and brightness is too low, cutting off the Y=32 bar.
