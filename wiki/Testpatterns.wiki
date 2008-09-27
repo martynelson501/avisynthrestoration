@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Description and installation of Testpatterns.
 #labels Phase-Deploy
 
 = Introduction =
