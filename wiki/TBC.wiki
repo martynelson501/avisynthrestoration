@@ -5,6 +5,8 @@
 
 TBC is an Avisynth Script which stabilizes timing jitter in video from analog VCRs, similiar in function to a TimeBaseCorrector.
 
+Update:  Note that this is very old code and is nothing more than a demonstration.  It does nothing practical.  Please see http://forum.doom9.org/showthread.php?t=161601
+
 
 = Details =
 
