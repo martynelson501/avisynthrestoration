@@ -1,0 +1,17 @@
+# Introduction #
+
+TBC is an Avisynth Script which stabilizes timing jitter in video from analog VCRs, similiar in function to a TimeBaseCorrector.
+
+Update:  Note that this is very old code and is nothing more than a demonstration.  It does nothing practical.  Please see http://forum.doom9.org/showthread.php?t=161601
+
+
+# Details #
+
+After processing your analog video through this filter, it is stabilized in the horizontal direction.  A reality of a normally working mechanical device is the imprecisness of it's timing.  Due to the varying speeds of the video head in a VCR, variations in timing are created.  This results in the symptom of video lines jumping left and right.  This script detects the end of each line, and places it in a known spot, thus preventing the jumping.
+It is important to stabilize video so that further processing can perform optimally.  For example, scripts which rely on motion vectors will be confused by the constant jumping.
+
+It requires [avisynth](http://www.avisynth.org) to run.  Once Avisynth is installed, open the included .avs file in Mediaplayer.  A default testpattern should be displayed.  To use on your own videos, modify the .avs as a text file and follow the included instructions to use your own video.
+
+![http://avisynthrestoration.googlecode.com/files/tbc-test.png](http://avisynthrestoration.googlecode.com/files/tbc-test.png)
+
+In this screenshot, the top, slightly brighter area is processed by the filter.  The bottom area has no significance at this time.  The numbers to the left show the horizontal shift which was originally applied; if you look carefully, those rows numbered 0 have sharp edges, while those rows numbered 4, have slightly blurry edges.  This is because, that row was originally shifted to the left, and thus a smaller image.  The image was resized back to the proper size, thus it is blurry.

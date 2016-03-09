@@ -1,0 +1,21 @@
+# Introduction #
+
+Testpatterns is an Avisynth Script which generates sinewaves in the Y channel directly in YV12.
+
+
+# Details #
+
+The resulting video can be used for testing the video response of analog systems.
+The included functions are also useful to plotting other functions, and demonstrate the implementation of recursive functions.
+
+![http://avisynthrestoration.googlecode.com/files/testpatterns-test.png](http://avisynthrestoration.googlecode.com/files/testpatterns-test.png)
+
+The above shows the generated testpattern of 8 sinewaves in 720 pixels, which is 53.3uS of video.
+
+![http://avisynthrestoration.googlecode.com/files/testpatterns-real.png](http://avisynthrestoration.googlecode.com/files/testpatterns-real.png)
+
+The above video shows the testpattern after recording to a VHS VCR.  The contrast at this frequency is pretty good.
+
+![http://avisynthrestoration.googlecode.com/files/testpatterns-real2.png](http://avisynthrestoration.googlecode.com/files/testpatterns-real2.png)
+
+The above video shows the testpattern after recording to a VHS VCR.  The contrast at this frequency is very poor.  The 135 sinewaves represent a real video frequency of 2.53MHz.  This video can theoretically be restored by application of a Fourier Transform to restore the frequency response.
